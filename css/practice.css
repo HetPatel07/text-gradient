@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.parent {
+    width: 100%;
+}
+
+.child {
+    border: 5px solid black;
+    font-size: 300px;
+    text-align: center;
+}
+
+.child h1 {
+    font-size: 100px;
+}
+
+.child .far {
+    background-clip: border-box;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.child h1 {
+    font-size: 72px;
+
+}
